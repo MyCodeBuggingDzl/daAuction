@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * A simple model of an auction.
@@ -101,11 +102,25 @@ public class Auction
         }
     }
     
-    public void close()
+    public void close(int highestBid)
     {
+        
         for(Lot l : listOfLots){
-            System.out.println(Lot);
+            if(highestBid > nextLotNumber)
+                System.out.println(highestBid);
+            }
+    }
+    
+    public ArrayList<Lot> getUnsold()
+    {
+        For(Lot l : ArrayList){
+            
+        }
+            }
+        }
+            
         }
     }
 }
+
 
